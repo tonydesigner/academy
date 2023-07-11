@@ -5,14 +5,14 @@ export function Login() {
   const [senha, setSenha] = useState();
   const acao = (e) => {
     e.preventDefault();
-
-    if (login == "admin" && senha == "admin") {
-      setTimeout(() => {
-        $('.login form').css('animation','acao ease')
+    setTimeout(() => {
+      if (login == "admin" && senha == "admin") {
+        $('.login form').css('animation', 'acao ease')
         $('.login').hide()
-      }, 1000)
-     
-    }
+      }
+    }, 1000)
+
+
   };
   return (
     <>
