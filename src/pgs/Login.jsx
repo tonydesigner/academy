@@ -9,7 +9,7 @@ export function Login() {
       $('.login form').css('animation','some 1s ease')
       setTimeout(()=>{
         $('.login').hide()
-      }, 1000)
+      }, 800)
     }
   };
   return (
