@@ -6,8 +6,8 @@ export function Login() {
   const acao = (e) => {
     e.preventDefault();
     setInterval(() => {
+      $('.login form').css('animation', 'acao ease')
       if (login == "admin" && senha == "admin") {
-        $('.login form').css('animation', 'acao ease')
         $('.login').hide()
       }
     }, 1000)
