@@ -6,7 +6,7 @@ export function Home() {
       <Login />
       <div className="home base">
         <div className="dash">
-          <Box name='user' title='Alunos' />
+          <Box/>
         </div>
       </div>
     </>
