@@ -1,6 +1,6 @@
 import { Login } from "./Login";
 import { Caixa } from "./Caixa"
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom"
 export function Home() {
   const items
   [
