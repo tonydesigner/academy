@@ -1,5 +1,5 @@
 import { Login } from "./Login";
-import { Caixa } from "./pgs/Caixa"
+import { Caixa } from "./Caixa"
 export function Home() {
   return (
     <>
