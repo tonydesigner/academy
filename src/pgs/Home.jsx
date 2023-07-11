@@ -4,8 +4,8 @@ export function Home() {
   return (
     <>
       <Login />
-      <div className="home margin base">
-        <div className="dash">
+      <div className="home">
+        <div className="dash base margin ">
           <Caixa nome='user' title='Alunos' />
           <Caixa nome='user' title='Alunos' />
           <Caixa nome='user' title='Alunos' />
