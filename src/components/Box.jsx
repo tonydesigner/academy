@@ -1,10 +1,5 @@
-export function Box(props){
-    return(
-        <>
-            <div className="box">
-                <box-icon name={props.name}></box-icon>
-                <h3>{props.title} </h3>
-            </div>
-        </>
-    )
+export function Box(){
+    return(<>
+        <h1>caixa</h1>
+    </>)
 }
