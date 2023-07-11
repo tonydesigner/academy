@@ -14,7 +14,7 @@ function App() {
 		<div className="box center">
 		<Menu />
 		<Routes>
-			<Route path='/' element={<Home />}/>
+			<Route path='/academy' element={<Home />}/>
 			<Route path='/alunos' element={<Alunos />}/>
 			<Route path='/financeiro' element={<Financas />}/>
 			<Route path='/modalidade' element={<Modalidade />}/>
