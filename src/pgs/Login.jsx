@@ -5,11 +5,11 @@ export function Login() {
   const [senha, setSenha] = useState();
   const acao = (e) => {
     e.preventDefault();
-    
+
     if (login == "admin" && senha == "admin") {
-      setInterval(()=>{
+      setInterval(() => {
         $('.login form').css('animation', 'acao 1s')
-        
+
       }, 1000)
       $('.login').hide()
     }
