@@ -52,10 +52,6 @@ body {
 	height: 100vh;
 	background-color: rgb(0 0 0)
 }
-.login form{
-	animation: sai ease;
-	transition: 1s;
-}
 
 .login form {
 	width: 350px;
@@ -112,8 +108,3 @@ button {
 	background-color: red;
 }
 
-@keyframes sai{
-	0%{transform: scale(1);}
-	50%{transform: scale(1.2);}
-	100%{transform: scale(0);}
-}
