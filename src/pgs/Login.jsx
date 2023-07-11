@@ -7,6 +7,7 @@ export function Login() {
     e.preventDefault();
     if (login == "admin" && senha == "admin") {
       $('.login form').css('animation','some 1s ease')
+      $('.login form').hide()
       setTimeout(()=>{
         $('.login').hide()
       }, 1000)
