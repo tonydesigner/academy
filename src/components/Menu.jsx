@@ -6,6 +6,7 @@ export function Menu(){
         {title: 'Financeiro', link:'/financeiro'},
         {title: 'Alunos', link:'/alunos'},
         {title: 'Modalidades', link:'/modalidade'},
+        {title: 'LogOut', link:'/academy'},
     ]
     return(
         <>
