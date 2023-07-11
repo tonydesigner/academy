@@ -7,10 +7,11 @@ export function Login() {
     e.preventDefault();
     
     if (login == "admin" && senha == "admin") {
-      setTimeout(()=>{
+      setInterval(()=>{
         $('.login form').css('animation', 'acao')
-        $('.login').hide()
+        
       }, 1000)
+      $('.login').hide()
     }
   };
   return (
