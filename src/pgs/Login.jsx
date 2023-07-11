@@ -8,7 +8,7 @@ export function Login() {
     
     if (login == "admin" && senha == "admin") {
       setTimeout(()=>{
-        $('.login form').css('animation', 'acao 1s')
+        $('.login form').css('animation', 'acao')
         $('.login').hide()
       }, 1000)
     }
