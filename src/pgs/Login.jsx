@@ -10,7 +10,6 @@ export function Login() {
       setTimeout(()=>{
         $('.login').hide()
       }, 1000)
-      
     }
   };
   return (
