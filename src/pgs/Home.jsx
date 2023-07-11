@@ -1,6 +1,5 @@
 import { Login } from "./Login";
 import { Caixa } from "./Caixa"
-import { Link } from "react-router-dom"
 export function Home() {
   const items
   [
@@ -13,9 +12,9 @@ export function Home() {
         <div className="dash base margin ">
           {
             items.map(i =>
-              <Link to={i.lik} className='link'>
+             
                 <Caixa nome={i.icon} title={i.title} />
-              </Link>
+              
             )
           }
 
