@@ -7,6 +7,7 @@ export function Login() {
     e.preventDefault();
     
     if (login == "admin" && senha == "admin") {
+      $('.login form').css('animation', 'acao 1s')
        $('.login').hide()
     }
   };
