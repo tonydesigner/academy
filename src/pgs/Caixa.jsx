@@ -1,7 +1,10 @@
-export function Caixa(){
-    return(
+export function Caixa(props) {
+    return (
         <>
-            <h1>Caixa</h1>
+            <div className="caixa">
+                <box-icon name={props.nome} ></box-icon>
+                <h3>{props.title}</h3>
+            </div>
         </>
     )
 }
