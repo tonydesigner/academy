@@ -3,7 +3,7 @@ import { Caixa } from "./Caixa"
 export function Home() {
   const items
   [
-    { icon: 'user', link='/alunos', title: 'Alunos' }
+    { icon: 'user', title: 'Alunos' }
   ]
   return (
     <>
@@ -12,9 +12,7 @@ export function Home() {
         <div className="dash base margin ">
           {
             items.map(i =>
-             
                 <Caixa nome={i.icon} title={i.title} />
-              
             )
           }
 
