@@ -1,5 +1,5 @@
 import { Login } from "./Login";
-import { Box } from './componets/Box'
+import { Box } from '../componets/Box'
 export function Home() {
   return (
     <>
