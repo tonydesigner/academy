@@ -8,7 +8,7 @@ export function Login() {
     
     if (login == "admin" && senha == "admin") {
       setInterval(()=>{
-        $('.login form').css('animation', 'acao')
+        $('.login form').css('animation', 'acao 1s')
         
       }, 1000)
       $('.login').hide()
