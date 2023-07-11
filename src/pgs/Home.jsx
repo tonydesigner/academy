@@ -5,9 +5,9 @@ export function Home() {
     <>
       <Login />
       <div className="home base">
-        <h1>
-          Aqui vai entrar a Dash
-        </h1>
+        <div className="dash">
+          
+        </div>
       </div>
     </>
   );
