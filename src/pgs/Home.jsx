@@ -1,7 +1,7 @@
 import { Login } from "./Login";
 import { Caixa } from "./Caixa"
 export function Home() {
-  const items
+  const items =
   [
     { icon: 'user', title: 'Alunos' }
   ]
