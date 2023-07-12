@@ -15,7 +15,6 @@ export function Home() {
                 <Caixa nome={i.icon} title={i.title} />
             )
           }
-
         </div>
       </div>
     </>
