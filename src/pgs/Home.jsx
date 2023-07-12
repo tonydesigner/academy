@@ -11,9 +11,7 @@ export function Home() {
       <div className="home">
         <div className="dash base margin ">
           {
-            items.map(i =>
-                <Caixa nome={i.icon} title={i.title} />
-            )
+            items.map(i =><Caixa nome={i.icon} title={i.title} />)
           }
         </div>
       </div>
