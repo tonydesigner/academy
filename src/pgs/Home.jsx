@@ -14,7 +14,7 @@ export function Home() {
   return (
     <>
       <Login />
-      <div className="home">
+      <div className="home base">
         <div className="dash base margin ">
           {
             items.map(i =><Caixa nome={i.icon} title={i.title} />)
