@@ -9,7 +9,6 @@ export function Home() {
     { icon: 'user', title: 'Alunos' },
     { icon: 'user', title: 'Alunos' },
     { icon: 'user', title: 'Alunos' },
-    { icon: 'user', title: 'Alunos' },
   ]
   return (
     <>
